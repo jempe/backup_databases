@@ -1,5 +1,7 @@
 #/bin/bash
-source db_setup.sh
+BACKUPS_DIR="/srv/backups"
+TEMP_BACKUP_DIR="$BACKUPS_DIR/temp"
+MYSQL_BACKUP_DIR="$BACKUPS_DIR/mysql"
 CURRENT_USER=$(whoami)
 
 if [ "$CURRENT_USER" == "root" ]; then
