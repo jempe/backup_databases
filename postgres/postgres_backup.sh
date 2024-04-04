@@ -13,7 +13,7 @@ if [ ! -d $BACKUPS_DIR ]; then
 fi
 
 CURRENT_DATE=$(date +"%Y-%m-%d")
-CURRENT_DATETIME=$(date +"%Y-%m-%d-%H-%M-%S")
+CURRENT_DATETIME=$(date +"%Y-%m-%d %H:%M:%S")
 
 echo "RUNNING BACKUP FOR POSTGRES DATABASE $CURRENT_USER AT $CURRENT_DATETIME"
 
