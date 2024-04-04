@@ -16,9 +16,9 @@ This bash script `postgres_backup.sh` is designed to be used as a cron job to au
 ## Before Running the Script
 
 Ensure the following steps are completed before running the script:
-1. Set the appropriate permissions for the script:
+1. Set the appropriate permissions for the backup directory:
    ```sh
-   chown <user>:<group> postgres_backup.sh
+   chown <user>:<group> /srv/backups/postgres/<CURRENT_USER>
    ```
    
 2. Update the `crontab` to schedule the backup as needed:
