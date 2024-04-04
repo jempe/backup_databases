@@ -4,6 +4,6 @@ This is a collection of scripts that can be used to backup databases. The script
 
 For additional information on how to use the scripts, please refer to the README files in the respective directories.
 
-[MySQL Backup Scripts](/jempe/backup_databases/tree/main/mysql)
+[MySQL Backup Scripts](https://github.com/jempe/backup_databases/tree/main/mysql)
 
-[PostgreSQL Backup Scripts](/jempe/backup_databases/tree/main/postgres)
+[PostgreSQL Backup Scripts](https://github.com/jempe/backup_databases/tree/main/postgres)
